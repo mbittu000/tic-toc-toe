@@ -29,60 +29,23 @@
       text-align: center;
       outline: none;
     }
+.r1{
+  text-align: center;
+  margin-top: 5px;
+}
+    .r2{
+  text-align: center;
+    margin-top: 5px;
 
-    .b1 {
-      position: absolute;
-      top: 150px;
-      left: 5px
-    }
+}
+    
+.r3{
+  text-align: center;
+    margin-top: 5px;
 
-    .b2 {
-      position: absolute;
-      top: 150px;
-      left: 122.5px
-    }
+}
+    
 
-    .b3 {
-      position: absolute;
-      top: 150px;
-      right: 5px;
-    }
-
-    .b4 {
-      position: absolute;
-      top: 255px;
-      left: 5px
-    }
-
-    .b5 {
-      position: absolute;
-      top: 255px;
-      left: 122.5px;
-    }
-
-    .b6 {
-      position: absolute;
-      top: 255px;
-      right: 5px;
-    }
-
-    .b7 {
-      position: absolute;
-      top: 360px;
-      left: 5px;
-    }
-
-    .b8 {
-      position: absolute;
-      top: 360px;
-      left: 122.5px;
-    }
-
-    .b9 {
-      position: absolute;
-      top: 360px;
-      right: 5px;
-    }
 
     body {
       background: black;
@@ -115,15 +78,19 @@
 <body>
   <h1 class="play">Tic Toc Toe</h1>
   <h3 class="turn" id="turn">Turn o</h3>
+  <div class="r1">
   <input class='b1' type="text" name="" id="b1" readonly />
   <input class='b2' type="text" name="" id="b2" readonly />
   <input class='b3' type="text" name="" id="b3" readonly />
+  </div>
+  <div class="r2">
   <input class='b4' type="text" name="" id="b4" readonly />
   <input class='b5' type="text" name="" id="b5" readonly />
-  <input class='b6' type="text" name="" id="b6" readonly />
+  <input class='b6' type="text" name="" id="b6" readonly /></div>
+  <div class="r3">
   <input class='b7' type="text" name="" id="b7" readonly />
   <input class='b8' type="text" name="" id="b8" readonly />
-  <input class='b9' type="text" name="" id="b9" readonly />
+  <input class='b9' type="text" name="" id="b9" readonly /></div>
   <button id="reset">Reset Game</button>
   <script>
     console.log('Hello World!');
